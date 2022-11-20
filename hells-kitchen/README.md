@@ -84,3 +84,36 @@ The above program will take user input and output whatever they input.
     <p>Additionally, you should consider looking into <a href="https://www.ascii-code.com/">ASCII character codes</a> and the <a href="https://www.geeksforgeeks.org/stack-data-structure/">stack data structure</a>. </p>
     
 </details>
+
+
+## Dessert: Python!
+Gordon Ramsay is tasking you with buying ingredients for his dessert service. He's a busy man, so he has no time to actually go shop with you. Therefore, he's given you a list of ingredients and his credit card. Of course, there's a budget.
+His ingredient list looks like this:
+```
+[[ingredient, cost, minimum_required], [ingredient, cost, minimum_required], ... ]
+```
+However, he doesn't expect you to be able to get all the ingredients in his list. He's given you a minimum count required per ingredient, in hopes of you actually getting him the ingredients he needs. You need to prioritize which ingredients you obtain in this way:
+- Purchase as many distinct ingredients as possible
+- Then, prioritize ingredients that can have their *minimum_required* requirement met
+- In cases where *minimum_required* cannot be met, minimize the amount of money used
+
+Return a list of items *[ingredient, quantity]* that Gordon should purchase in any order. If no ingredients can be purchased, return [ ].
+
+This task is explained again in the *get_gordons_ingredients.py* file with examples.
+
+### Your Task
+Open the *get_gordons_ingredients.py* file and implement the method *get_ingredients()* to the best of your ability! Don't worry if you can't meet all 3 of the requirements, Gordon will give you credit for any attempt! He wants you to purchase as many distinct ingredients as possible first before moving on to the other requirements! Good luck!
+
+### Running Your Program
+Ensure that you are working within the hells-kitchen folder. Within a terminal, run the following code:
+```shell
+python3 ./get_gordons_ingredients.py
+```
+
+To test your implementation, you can change the *ingredients* and *budget* variables in line 58 and 59 within the file. 
+Note that this problem requires python to be installed, so make sure you get that done before starting!
+
+### Python Help
+- Download Python: [download](https://www.python.org/downloads/)
+- Python Docs: [docs](https://docs.python.org/3/)
+- Python Cheatsheet: [geeksforgeeks](https://www.geeksforgeeks.org/python-programming-language/)
